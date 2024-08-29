@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Rock Paper Scissors!
+        </title>
+        <script>
+            console.log("Hey World")
+        // step 4: scores! //
+
+           let computerScore = 0;
+           let humanScore = 0;
+
+
+        // step 2: computer choice //
+
+           function getComputerChoice(arr) {
+           let randomChoice = Math.floor(Math.random() * arr.length);
+           return arr[randomChoice];
+           }
+
+           let options = ['rock', 'paper', 'scissors'];
+           let randomOption = getComputerChoice(options);
+        
+           console.log(randomOption)
+
+        // step 3: human choice //
+
+           let userInput = prompt('Lets play rock paper scissors!');
+           function getHumanChoice() {
+           if (userInput = 'rock') {
+            console.log('rock');
+          }
+           else if (userInput = paper) {
+            console.log('paper')
+           }
+           else if (userInput = 'scissors') {
+            console.log('scissors')
+           }
+
+           }
+
+           console.log(userInput);
+
+        // step 5: let's play a round! //
+
+
+        </script>
+    </head>
+
+    <body>
+        <h1>Rock Paper Scissors!</h1>
+    </body>
+</html>
